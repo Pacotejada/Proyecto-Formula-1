@@ -57,8 +57,7 @@ def main():
     for driver in api_drivers:
         object_drivers = Drivers(driver["id"], driver["permanentNumber"], driver["code"], driver["team"], driver["firstName"], driver["lastName"], driver["dateOfBirth"], driver["nationality"])
         drivers.append(object_drivers)
-        #Buscar en la lista de constructores el team
-        #Añadir a la lista del team el driver
+
     for drivers in drivers:
         drivers.show()  
 
